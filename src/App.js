@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 const api = {
   key: "d01be27a816e4ec6ccd0d11045990f7b",
-  base: "http://api.openweathermap.org/data/2.5/",
+  base: "https://api.openweathermap.org/data/2.5/",
 };
 
 function App() {
@@ -95,7 +95,7 @@ function App() {
                 <div className="icon">
                   {
                     <img
-                      src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}.png`}
+                      src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}.png`}
                     ></img>
                   }
                 </div>
